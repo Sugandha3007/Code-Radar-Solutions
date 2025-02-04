@@ -13,14 +13,17 @@ int main() {
     }
     else if(sign=='/'){
         if(b==0){
-            printf("Error");
+            printf("error");
         }
         else{
             printf("%d\n",a/b);
         }   
     }
-    else{
+    else if(sign=='*'){
         printf("%d\n",a*b);
+    }
+    else{
+        printf("error");
     }
 
 }
