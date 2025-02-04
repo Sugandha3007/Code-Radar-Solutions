@@ -14,7 +14,7 @@ int main() {
     else if(sign=='/'){
         printf("%d\n",a/b);
     }
-    else if(sign=='*'){
+    else{
         printf("%d\n",a*b);
     }
 
