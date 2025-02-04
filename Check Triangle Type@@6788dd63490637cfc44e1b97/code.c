@@ -11,6 +11,6 @@ int main(){
         printf("Isoceles\n");
     }
     else{
-        printf("Scalene");
+        printf("Scalene\n");
     }
 }
