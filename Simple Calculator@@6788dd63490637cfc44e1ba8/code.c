@@ -22,8 +22,6 @@ int main() {
     else if(sign=='*'){
         printf("%d\n",a*b);
     }
-    else{
-        printf("error");
-    }
+
 
 }
