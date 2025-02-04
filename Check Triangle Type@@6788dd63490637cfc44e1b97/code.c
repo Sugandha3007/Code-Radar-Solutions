@@ -4,10 +4,10 @@ int main(){
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    if(a=b=c){
+    if(a==b==c){
         printf("Equilateral\n");
     }
-    else if((a=b)||(b=c)||(a=c)){
+    else if((a==b)||(b==c)||(a==c)){
         printf("Isoceles\n");
     }
     else{
