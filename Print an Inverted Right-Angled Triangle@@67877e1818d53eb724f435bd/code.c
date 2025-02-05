@@ -5,4 +5,5 @@ int main(){
     for(i=rows;i>0;i--){
         printf("*"*i);
     }
+    printf("\n");
 }
