@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main(){
-    int rows,i;
+    int rows,i,j;
     scanf("%d",&rows);
     for(i=rows;i>0;i--){
-        printf("*"*i);
-    }
-    printf("\n");
+        for(j=0;j<i;j++){
+            printf("*");
+        }
+        printf("\n");
+}
 }
