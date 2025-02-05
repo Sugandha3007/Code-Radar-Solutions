@@ -2,8 +2,8 @@
 int main(){
     int a,i=2,prime=0;
     scanf("%d",&a);
-    while(i<=n/2){
-        if(n%i==0){
+    while(i<=a/2){
+        if(a%i==0){
             prime=1;
             break;
         }
