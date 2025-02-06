@@ -5,7 +5,7 @@ int main(){
     for(i=1;i<rows+1;i++){
         printf("*");
         printf(" ");
-        for(j=0;j<i){
+        for(j=0;j<i;j){
             printf("*");
             printf(" ");
         }
