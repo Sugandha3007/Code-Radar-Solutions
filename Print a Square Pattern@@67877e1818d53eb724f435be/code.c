@@ -5,8 +5,9 @@ int main(){
     for(i=1;i<rows+1;i++){
         printf("*");
         for(j=0;j<i;j++){
-            printf("*");
             printf(" ");
+            printf("*");
+            
             
         }
         printf("\n"); 
