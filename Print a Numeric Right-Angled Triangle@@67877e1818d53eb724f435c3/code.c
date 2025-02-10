@@ -1,9 +1,12 @@
 #include <stdio.h>
 int main(){
-    int rows,i;
+    int rows,i,j;
     scanf("%d",&rows);
     for(i=1;i<=rows;i++){
-        printf("%d",i);
+        for(j=1;j<=rows;j++){
+            printf("%d",i);
+            printf(" ");
+        }
     }
     printf("\n");
 }
