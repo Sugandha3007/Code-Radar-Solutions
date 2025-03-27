@@ -2,8 +2,8 @@
 int main(){
     int rows,i,j,num;
     scanf("%d",&rows);
+    num=1;
     for(i=1;i<=rows;i++){
-        num=1;
         for(j=1;j<=i;j++){
             printf("%d",num);
             printf(" ");
