@@ -2,10 +2,9 @@
 int main(){
     int rows,i,j;
     scanf("%d",&rows);
-    for(i=1;i<rows+1;i++){
-        for(j=0;j<i;j++){
-            printf("*");
-            printf(" ");
+    for(i=0;i<rows;i++){
+        for(j=0;j<=i;j++){
+            printf("* ");
         }
         printf("\n");
     }
