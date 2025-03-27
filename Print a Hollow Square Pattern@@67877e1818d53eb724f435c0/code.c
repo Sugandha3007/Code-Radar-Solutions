@@ -9,7 +9,9 @@ int main(){
             }
             else{
                 printf("*");
-                for(k=0;k<rows-2;k++);
+                for(k=0;k<rows-2;k++){
+                    printf(" ")
+                }
                 printf("*");
             }
         }
