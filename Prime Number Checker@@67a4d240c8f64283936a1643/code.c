@@ -1,4 +1,4 @@
-int isPrime(num){
+int isPrime(int num){
     for(i=1;i<num/2;i++){
         if(num%i){
             return 0;
