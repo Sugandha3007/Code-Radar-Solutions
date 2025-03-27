@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&rows);
     for(i=rows;i>=1;i--){
         alphabet='A';
-        for(j=rows;j>1;j--){
+        for(j=i;j>=1;j--){
             printf("%c ",alphabet);
             alphabet++;
         }
