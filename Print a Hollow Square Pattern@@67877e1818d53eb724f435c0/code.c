@@ -2,12 +2,15 @@
 int main(){
     int rows,i,j;
     scanf("%d",&rows);
-    if(rows%2==0){
-        for(i=0;i<rows;i++){
-            printf("*");
+    for(i=0;i<rows;i++){
+        for(j=0;j<rows;j++){
+            if(i==0||i==rows-1){
+                printf("*");
+            }
+            else{
+                printf(" ")
+            }
         }
-    }
-    else{
-        printf(" * ");
+        printf("\n");
     }
 }
