@@ -19,7 +19,7 @@ int main(){
             second=largest;
             largest=array[i];
         }
-        else if(array[i]>second && array[i]!>largest){
+        else if(array[i]>second && array[i] != largest){
             second=array[i];
         }
         
