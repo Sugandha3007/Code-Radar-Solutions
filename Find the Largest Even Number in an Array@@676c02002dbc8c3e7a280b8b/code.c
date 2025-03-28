@@ -12,10 +12,11 @@ int main(){
             if(array[i]>=maximum){
                 maximum=array[i];
             }
-        }
-        else{
+            else{
             maximum=-1;
         }
+        }
+        
     }
     printf("%d",maximum);
 }
