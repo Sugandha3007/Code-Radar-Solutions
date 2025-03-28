@@ -21,5 +21,5 @@ int main(){
     }
     }
     
-    printf("%d %d",array[i],frequency);
+    printf("%d %d",array[i],freq[i]);
 }
