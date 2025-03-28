@@ -11,8 +11,8 @@ int main(){
         }
         printf("\n");
     }
-    for(i=0;i<rows-1;i++){
-        for(j=0;j<=i;j++){
+    for(i=rows-1;i>0;i--){
+        for(j=rows-i;j>0;j--){
             printf(" ");
         }
         for(k=2*i+1;k>=0;k--){
