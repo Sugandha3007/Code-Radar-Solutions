@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int rows,i,j,k;
+    int rows,i,j,k,p,q,r;
     scanf("%d",&rows);
     for(i=0;i<rows;i++){
         for(j=0;j<rows-i-1;j++){
@@ -11,11 +11,11 @@ int main(){
         }
         printf("\n");
     }
-    for(i=rows-1;i>0;i--){
-        for(j=rows-i;j>0;j--){
+    for(p=rows-2;p>=0;p--){
+        for(q=0;q<rows-p-1;q++){
             printf(" ");
         }
-        for(k=2*i+1;k>=0;k--){
+        for(r=0;r<2*p+1;r++){
             printf("*");
         }
         printf("\n");
