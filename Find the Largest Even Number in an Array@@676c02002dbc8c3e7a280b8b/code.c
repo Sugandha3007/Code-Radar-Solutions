@@ -13,6 +13,10 @@ int main(){
                 maximum=array[i];
             }
         }
+        else{
+            printf("%d",-1);
+        }
     }
+
     printf("%d",maximum);
 }
