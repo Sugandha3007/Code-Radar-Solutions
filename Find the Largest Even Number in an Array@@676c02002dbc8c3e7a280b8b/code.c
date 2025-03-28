@@ -11,6 +11,7 @@ int main(){
         if(array[i]%2==0){
             if(array[i]>maximum){
                 maximum=array[i];
+                printf("%d",maximum);
             }
         }
         else{
@@ -18,5 +19,5 @@ int main(){
         }
     }
 
-    printf("%d",maximum);
+    
 }
