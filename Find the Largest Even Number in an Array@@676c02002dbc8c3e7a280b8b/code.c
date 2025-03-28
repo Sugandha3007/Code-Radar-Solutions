@@ -6,13 +6,14 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    int maximum=array[0];
+    int maximum=-1;
     for(i=0;i<n;i++){
         if(array[i]%2==0){
             if(array[i]>maximum){
                 maximum=array[i];
             }
         }
+        }
+        printf("%d",maximum);
     }
-    printf("%d",maximum);
-}
+    
