@@ -22,9 +22,6 @@ int main(){
         else if(array[i]>second && array[i] != largest){
             second=array[i];
         }
-        else{
-            printf("%d",-1);
-        }
         
     }
     printf("%d",second);
