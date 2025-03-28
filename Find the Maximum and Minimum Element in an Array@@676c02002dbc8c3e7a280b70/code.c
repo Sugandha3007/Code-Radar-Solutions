@@ -17,8 +17,8 @@ int main() {
             minimum=array[i];
         }
     }
-    printf("%d",minimum);
-    printf("%d\n",maximum);
+    printf("%d ",minimum);
+    printf("%d",maximum);
     
     
 }
