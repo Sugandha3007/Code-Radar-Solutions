@@ -24,5 +24,10 @@ int main(){
         }
         
     }
-    printf("%d",second);
+    if(n>1){
+        printf("%d",second);
+    }
+    else{
+        printf("%d",-1);
+    }
 }
