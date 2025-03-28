@@ -9,7 +9,7 @@ int main(){
     int frequency=0;
     for(j=0;j<n;j++){
         if(array[i]==array[j]){
-            frequncy++;
+            frequency++;
         }
     }
     printf("%d %d",array[i],frequency);
