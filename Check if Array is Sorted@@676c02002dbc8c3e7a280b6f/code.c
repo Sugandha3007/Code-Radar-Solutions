@@ -16,7 +16,7 @@ int main(){
 
 }
     int sorted(int n){
-        for(i=0;i<n;i++){
+        for(int i=0;i<n;i++){
         if(array[i]<=array[i+1]){
             return 0;
         }
