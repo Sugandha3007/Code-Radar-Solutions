@@ -6,16 +6,15 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    int sort=sorted(n);
+    int sort=sorted(array[i]);
     if(sort==0){
         printf("Sorted");
     }
     else{
         printf("Not Sorted");
     }
-
 }
-    int sorted(int n){
+    int sorted(int array[i]){
         for(int i=0;i<n;i++){
         if(array[i]<=array[i+1]){
             return 0;
