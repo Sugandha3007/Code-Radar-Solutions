@@ -1,12 +1,13 @@
 #include<stdio.h>
+int sorted(int array[],int n);
 int main(){
     int n,i;
     scanf("%d",&n);
     int array[n];
     for(i=0;i<n;i++){
-        scanf("%d",&array[i]);
+        scanf("%d ",&array[i]);
     }
-    int sort=sorted(int array[n]);
+    int sort=sorted(array,n);
     if(sort==0){
         printf("Sorted");
     }
@@ -14,15 +15,12 @@ int main(){
         printf("Not Sorted");
     }
 }
-    int sorted(int array[n]){
+int sorted(int array[],int n){
         for(int i=0;i<n;i++){
         if(array[i]<=array[i+1]){
             return 0;
         }
-        else{
-            return 1;
-        }
     }
+    return 1;
     }
     
-
