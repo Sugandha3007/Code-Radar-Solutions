@@ -8,7 +8,7 @@ int selectionSort(int arr[],int n){
         }
         int temp=arr[smallestIdx];
         arr[i]=arr[smallestIdx];
-        arr[i]=temp;
+        arr[smallestIdx]=temp;
     }
 }
 int printArray(int arr[],int n){
