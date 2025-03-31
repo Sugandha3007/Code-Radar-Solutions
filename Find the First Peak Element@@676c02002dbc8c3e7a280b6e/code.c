@@ -10,6 +10,7 @@ int peak(int array[],int n){
         else if(i=n-1){
             if(array[i]>array[i-1]){
                 return array[i];
+                break;
             }
         }
     }
