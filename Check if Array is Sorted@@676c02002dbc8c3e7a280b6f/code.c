@@ -1,14 +1,4 @@
 #include<stdio.h>
-int sorted(int array[],int n){
-        for(int i=0;i<n;i++){
-        if(array[i]<=array[i+1]){
-            return 0;
-        }
-        else{
-            return 1;
-        }
-    }
-    }
 int main(){
     int n,i;
     scanf("%d",&n);
@@ -24,5 +14,15 @@ int main(){
         printf("Not Sorted");
     }
 }
+int sorted(int array[],int n){
+        for(int i=0;i<n;i++){
+        if(array[i]<=array[i+1]){
+            return 0;
+        }
+        else{
+            return 1;
+        }
+    }
+    }
 
     
