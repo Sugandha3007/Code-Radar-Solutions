@@ -6,7 +6,7 @@ int peak(int array[],int n){
             break;
         }
     }
-    return 0;
+    return -1;
 }
 int main(){
     int n,i;
@@ -17,6 +17,9 @@ int main(){
     }
     int result=peak(array,n);
     if(result!=0){
+        printf("%d",result);
+    }
+    else if(result==-1){
         printf("%d",result);
     }
 }
