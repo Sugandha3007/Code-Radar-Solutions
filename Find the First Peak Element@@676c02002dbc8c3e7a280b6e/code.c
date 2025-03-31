@@ -13,8 +13,11 @@ int peak(int array[],int n){
                 break;
             }
         }
+        else{
+             return -1;
+        }
     }
-    return -1;
+   
 }
 int main(){
     int n,i;
