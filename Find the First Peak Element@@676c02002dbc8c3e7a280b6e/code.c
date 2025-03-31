@@ -1,7 +1,7 @@
 #include<stdio.h>
 int peak(int array[],int n){
     for(int i=1;i<=n;i++){
-        if((array[i-1]<array[i])||(array[i]>array[i+1])){
+        if((array[i-1]<array[i])&&(array[i]>array[i+1])){
             return array[i];
             break;
         }
