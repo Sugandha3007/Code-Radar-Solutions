@@ -7,11 +7,9 @@ int frequency(int array[],int n){
         }
         else if(array[j]!=array[i]){
             return count++;
-        }
-        else{
-            return count;
-        }  
+        } 
     }
+    return 0;
 }
 int main(){
     int n,i;
