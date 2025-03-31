@@ -1,7 +1,7 @@
 #include<stdio.h>
 int frequency(int array[],int n){
     int freq[n];
-    for(i=0;i<n;i++){
+    for(int i=0;i<n;i++){
         freq[i]=-1;
     }
     for(i=0;i<n;i++){
