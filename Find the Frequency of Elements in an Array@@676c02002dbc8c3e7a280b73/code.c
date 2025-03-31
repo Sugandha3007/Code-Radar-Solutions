@@ -18,5 +18,5 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
-    printf("%d %d",i+1,frequency(array,n));
+    printf("%d %d",array[i],frequency(array,n));
 }
