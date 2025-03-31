@@ -6,9 +6,9 @@ int selectionSort(int arr[],int n){
                 smallestIdx=j;
             }
         }
-        int temp=arr[i];
+        int temp=arr[smallestIdx];
         arr[i]=arr[smallestIdx];
-        arr[smallestIdx]=temp;
+        arr[i]=temp;
     }
 }
 int printArray(int arr[],int n){
