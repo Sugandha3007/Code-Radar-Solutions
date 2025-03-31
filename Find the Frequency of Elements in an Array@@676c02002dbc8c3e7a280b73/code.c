@@ -1,6 +1,6 @@
 #include<stdio.h>
 int frequency(int array[],int n){
-    int count=0;j;
+    int count=0,j;
     for(int i=0,j=0;i<n;i++,j++){
         if(array[j]=array[i]){
             return count++;
