@@ -1,6 +1,6 @@
 #include<stdio.h>
 int peak(int array[],int n){
-    for(int i=1;i<n-1;i++){
+    for(int i=1;i<n;i++){
         if(i<n){
             if((array[i-1]<array[i])&&(array[i]>array[i+1])){
             return array[i];
