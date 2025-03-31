@@ -1,13 +1,13 @@
 #include<stdio.h>
 int peak(int array[],int n){
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=n-1;i++){
         if(i<n){
             if((array[i-1]<array[i])&&(array[i]>array[i+1])){
             return array[i];
             break;
         }
         }
-        else if(i=n){
+        else if(i=n-1){
             if(array[i]>array[i-1]){
                 return array[i];
             }
