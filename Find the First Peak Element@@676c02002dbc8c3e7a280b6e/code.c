@@ -24,7 +24,7 @@ int main(){
         scanf("%d",&array[i]);
     }
     int result=peak(array,n);
-    if(result!=0){
+    if(result!=-1){
         printf("%d",result);
     }
     else if(result==-1){
