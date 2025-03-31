@@ -1,25 +1,24 @@
 #include<stdio.h>
-int main(){
-    int n,i,j;
-    scanf("%d",&n);
-    int array[n],freq[n];
-    for(i=0;i<n;i++){
-        scanf("%d",&array[n]);
-        freq[n]=-1;
-    }
-    
-    for(i=0;i<n;i++){
-        int frequency=0;
-        for(j=0;j<n;j++){
-            if(array[i]==array[j]){
-            frequency++;
-            freq[j]=0;
+int frequency(int array[],int n){
+    int count=0;j;
+    for(int i=0,j=0;i<n;i++,j++){
+        if(array[j]=array[i]){
+            return count++;
         }
+        else if(array[j]!=array[i]){
+            return count++;
+        }
+        else{
+            return count;
+        }  
     }
-    if(freq[i]!=0){
-        freq[i]=frequency;
+}
+int main(){
+    int n,i;
+    scanf("%d",&n);
+    int array[n];
+    for(i=0;i<n;i++){
+        scanf("%d",&array[i]);
     }
-    }
-    
-    printf("%d %d",array[i],freq[i]);
+    printf("%d %d",i+1,frequency(array,n));
 }
