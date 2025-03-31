@@ -11,8 +11,8 @@ int main(){
     for(i=0;i<n;i++){
         if(array[i]==key){
             count++;
-            printf("%d %d",key,count);
         }
+         printf("%d %d",key,count);
     }
     
 }
