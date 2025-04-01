@@ -31,6 +31,6 @@ int main(){
         printf("%d",result);
     }
     else if(result==-1){
-        printf("%d",-1);
+        printf("%d",result);
     }
 }
