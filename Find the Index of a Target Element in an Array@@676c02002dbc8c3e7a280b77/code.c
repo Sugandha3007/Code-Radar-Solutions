@@ -1,7 +1,7 @@
 #include<stdio.h>
 int target(int array[],int n,int t){
     for(int i=0;i<n;i++){
-    if(array[i]=t){
+    if(array[i]==t){
         return i;
         break;
     }
