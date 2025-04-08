@@ -3,7 +3,7 @@ int main(){
     int n,i;
     scanf("%d",&n);
     int array[n];
-    for(i=;i<n;i++){
+    for(i=0;i<n;i++){
         scanf("%d",&array[i]);
     }
     int counted[n];
@@ -20,6 +20,7 @@ int main(){
             count++;
             counted[j]=1;
         }
+            printf("%d %d\n",array[i],count);
     }
-    printf("%d %d\n",array[i],count);
+
 }
