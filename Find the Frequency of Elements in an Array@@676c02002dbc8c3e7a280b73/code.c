@@ -12,7 +12,6 @@ int main(){
         if(array[i]==key){
             count++;
         }
-         printf("%d %d",key,count);
     }
-    
+      printf("%d %d",key,count);
 }
