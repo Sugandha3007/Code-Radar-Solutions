@@ -16,11 +16,13 @@ int main(){
         }
         int count=1;
         for(int j=i+1;j<n;j++){
-            array[i]==array[j];
-            count++;
-            counted[j]=1;
+            if(array[i]==array[j]){
+                count++;
+                counted[j]=1;
+            }
         }
-            printf("%d %d\n",array[i],count);
+          printf("%d %d\n",array[i],count);
+
     }
 
 }
