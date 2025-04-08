@@ -11,7 +11,7 @@ int main(){
         counted[n]=0;
     }
     for(i=0;i<n;i++){
-        if(counted[i]=0){
+        if(counted[i]){
             continue;
         }
         int count=1;
@@ -21,8 +21,6 @@ int main(){
                 counted[j]=1;
             }
         }
-          printf("%d %d\n",array[i],count);
-
+        printf("%d %d\n",array[i],count);
     }
-
 }
