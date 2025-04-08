@@ -1,32 +1,25 @@
 #include <stdio.h>
-
-int main() {
-    int n;
-    scanf("%d", &n);  // Read number of elements
-
-    int arr[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);  // Read array elements
+int main(){
+    int n,i;
+    scanf("%d",&n);
+    int array[n];
+    for(i=;i<n;i++){
+        scanf("%d",&array[i]);
     }
-
-    int counted[n];  // To mark counted elements
-    for (int i = 0; i < n; i++) {
-        counted[i] = 0;
+    int counted[n];
+    for(i=0;i<n;i++){
+        counted[n]=0;
     }
-
-    for (int i = 0; i < n; i++) {
-        if (counted[i])
+    for(i=0;i<n;i++){
+        if(counted[i]=0){
             continue;
-
-        int count = 1;
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] == arr[j]) {
-                count++;
-                counted[j] = 1;  // Mark as counted
-            }
         }
-        printf("%d %d\n", arr[i], count);
+        int count=1;
+        for(int j=i+1;j<n;j++){
+            array[i]==array[j];
+            count++;
+            counted[j]=1;
+        }
     }
-
-    return 0;
+    printf("%d %d\n",array[i],count);
 }
